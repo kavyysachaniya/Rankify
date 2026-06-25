@@ -219,6 +219,7 @@ function TierListEditor({ user, onLogout }) {
               selectedItemId={selectedItemId}
               onSelectItem={setSelectedItemId}
               canvasRef={canvasRef}
+              state={state}
             />
           </div>
         </div>

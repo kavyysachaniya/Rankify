@@ -4,9 +4,10 @@ import { useDroppable } from '@dnd-kit/core'
 import { SortableContext, rectSortingStrategy } from '@dnd-kit/sortable'
 import ItemCard from './ItemCard'
 import { exportTierListAsImage } from '../utils/exportImage'
+import { exportStateAsJson, importStateFromJson } from '../utils/jsonExport'
 import { ASPECT_OPTIONS } from '../constants/aspectRatios'
 
-export default function ItemPool({ items, pool, dispatch, selectedItemId, onSelectItem, canvasRef, readOnly }) {
+export default function ItemPool({ items, pool, dispatch, selectedItemId, onSelectItem, canvasRef, state, readOnly }) {
   const { setNodeRef, isOver } = useDroppable({ id: 'pool' })
   const poolItems = pool.map(id => items.find(i => i.id === id)).filter(Boolean)
 
@@ -16,6 +17,7 @@ export default function ItemPool({ items, pool, dispatch, selectedItemId, onSele
   const [isDragOver, setIsDragOver] = useState(false)
   const [dropStatus, setDropStatus] = useState(null)
   const fileInputRef = useRef(null)
+  const jsonInputRef = useRef(null)
   const dragCounterRef = useRef(0)
 
   const [textModal, setTextModal] = useState(false)
@@ -169,6 +171,23 @@ export default function ItemPool({ items, pool, dispatch, selectedItemId, onSele
     e.target.value = ''
   }
 
+  function handleJsonImport(e) {
+    const file = e.target.files[0]
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = () => {
+      const data = importStateFromJson(reader.result)
+      if (!data) {
+        alert('Invalid tier list file.')
+        return
+      }
+      if (items.length > 0 && !window.confirm('This will replace your current tier list. Continue?')) return
+      dispatch({ type: 'LOAD_TEMPLATE', data })
+    }
+    reader.readAsText(file)
+    e.target.value = ''
+  }
+
   function handleTextFileUpload(e, setter) {
     const file = e.target.files[0]
     if (!file) return
@@ -291,6 +310,27 @@ export default function ItemPool({ items, pool, dispatch, selectedItemId, onSele
             >
               Download PNG
             </button>
+            <div className="flex gap-2">
+              <button
+                onClick={(e) => { e.stopPropagation(); state && exportStateAsJson(state) }}
+                className="flex-1 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/[0.04] border border-[#2a2a2a] rounded transition-colors cursor-pointer"
+              >
+                Export JSON
+              </button>
+              <input
+                ref={jsonInputRef}
+                type="file"
+                accept=".json,application/json"
+                onChange={handleJsonImport}
+                className="hidden"
+              />
+              <button
+                onClick={(e) => { e.stopPropagation(); jsonInputRef.current?.click() }}
+                className="flex-1 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/[0.04] border border-[#2a2a2a] rounded transition-colors cursor-pointer"
+              >
+                Import JSON
+              </button>
+            </div>
           </div>
         )}
       </div>
