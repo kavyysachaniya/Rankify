@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #07070a;
+  color: #d4d4dc;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 255, 255, 0.06) 0%, transparent 100%),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(200, 160, 120, 0.06) 0%, transparent 100%),
+    radial-gradient(ellipse 50% 50% at 0% 80%, rgba(180, 160, 140, 0.04) 0%, transparent 100%),
+    linear-gradient(180deg, #0c0c0e 0%, #07070a 100%);
+}
+
+.exporting .hover-control {
+  display: none !important;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.15);
+}

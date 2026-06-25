@@ -1,0 +1,176 @@
+[
+  {
+    "id": "tmpl-movies-alltime",
+    "name": "Greatest Movies of All Time",
+    "category": "movies",
+    "itemCount": 12,
+    "data": {
+      "tiers": [
+        { "id": "t1", "name": "S", "color": "#d4a0a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t2", "name": "A", "color": "#d4b8a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t3", "name": "B", "color": "#d4cca0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t4", "name": "C", "color": "#a0d4a8", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t5", "name": "D", "color": "#a0b8d4", "bgImage": null, "icon": null, "visualMode": "color", "items": [] }
+      ],
+      "items": [
+        { "id": "m1", "type": "text", "label": "The Shawshank Redemption", "bgColor": "#4a3728", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m2", "type": "text", "label": "The Godfather", "bgColor": "#2d2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m3", "type": "text", "label": "The Dark Knight", "bgColor": "#1a1a2e", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m4", "type": "text", "label": "Pulp Fiction", "bgColor": "#4a2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m5", "type": "text", "label": "Forrest Gump", "bgColor": "#2d4a2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m6", "type": "text", "label": "Inception", "bgColor": "#2d2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m7", "type": "text", "label": "Fight Club", "bgColor": "#4a3333", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m8", "type": "text", "label": "The Matrix", "bgColor": "#1a3320", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m9", "type": "text", "label": "Interstellar", "bgColor": "#1a1a33", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m10", "type": "text", "label": "Goodfellas", "bgColor": "#3d2828", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m11", "type": "text", "label": "The Prestige", "bgColor": "#33291a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "m12", "type": "text", "label": "Parasite", "bgColor": "#2d3d2d", "bgImage": null, "icon": null, "aspectRatio": "square" }
+      ],
+      "pool": ["m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "m11", "m12"]
+    }
+  },
+  {
+    "id": "tmpl-games-goat",
+    "name": "Best Video Games Ever",
+    "category": "games",
+    "itemCount": 12,
+    "data": {
+      "tiers": [
+        { "id": "t1", "name": "S", "color": "#d4a0a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t2", "name": "A", "color": "#d4b8a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t3", "name": "B", "color": "#d4cca0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t4", "name": "C", "color": "#a0d4a8", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t5", "name": "D", "color": "#a0b8d4", "bgImage": null, "icon": null, "visualMode": "color", "items": [] }
+      ],
+      "items": [
+        { "id": "g1", "type": "text", "label": "The Legend of Zelda: BOTW", "bgColor": "#2d4a33", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g2", "type": "text", "label": "Red Dead Redemption 2", "bgColor": "#4a3728", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g3", "type": "text", "label": "The Witcher 3", "bgColor": "#2d2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g4", "type": "text", "label": "Minecraft", "bgColor": "#2d4a2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g5", "type": "text", "label": "GTA V", "bgColor": "#1a3320", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g6", "type": "text", "label": "Elden Ring", "bgColor": "#4a4a1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g7", "type": "text", "label": "God of War (2018)", "bgColor": "#4a2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g8", "type": "text", "label": "The Last of Us", "bgColor": "#2d3d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g9", "type": "text", "label": "Dark Souls", "bgColor": "#2d2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g10", "type": "text", "label": "Portal 2", "bgColor": "#1a2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g11", "type": "text", "label": "Hades", "bgColor": "#4a1a1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "g12", "type": "text", "label": "Hollow Knight", "bgColor": "#1a1a33", "bgImage": null, "icon": null, "aspectRatio": "square" }
+      ],
+      "pool": ["g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8", "g9", "g10", "g11", "g12"]
+    }
+  },
+  {
+    "id": "tmpl-nba-players",
+    "name": "NBA GOATs",
+    "category": "sports",
+    "itemCount": 10,
+    "data": {
+      "tiers": [
+        { "id": "t1", "name": "GOAT", "color": "#d4a0a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t2", "name": "Legend", "color": "#d4b8a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t3", "name": "Superstar", "color": "#d4cca0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t4", "name": "All-Star", "color": "#a0d4a8", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t5", "name": "Great", "color": "#a0b8d4", "bgImage": null, "icon": null, "visualMode": "color", "items": [] }
+      ],
+      "items": [
+        { "id": "n1", "type": "text", "label": "Michael Jordan", "bgColor": "#4a1a1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n2", "type": "text", "label": "LeBron James", "bgColor": "#4a3728", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n3", "type": "text", "label": "Kobe Bryant", "bgColor": "#3d2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n4", "type": "text", "label": "Stephen Curry", "bgColor": "#1a2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n5", "type": "text", "label": "Magic Johnson", "bgColor": "#4a4a1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n6", "type": "text", "label": "Larry Bird", "bgColor": "#2d4a2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n7", "type": "text", "label": "Shaquille O'Neal", "bgColor": "#1a1a4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n8", "type": "text", "label": "Tim Duncan", "bgColor": "#2d2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n9", "type": "text", "label": "Kevin Durant", "bgColor": "#1a2d33", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "n10", "type": "text", "label": "Hakeem Olajuwon", "bgColor": "#4a2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" }
+      ],
+      "pool": ["n1", "n2", "n3", "n4", "n5", "n6", "n7", "n8", "n9", "n10"]
+    }
+  },
+  {
+    "id": "tmpl-music-artists",
+    "name": "Greatest Music Artists",
+    "category": "music",
+    "itemCount": 12,
+    "data": {
+      "tiers": [
+        { "id": "t1", "name": "S", "color": "#d4a0a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t2", "name": "A", "color": "#d4b8a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t3", "name": "B", "color": "#d4cca0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t4", "name": "C", "color": "#a0d4a8", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t5", "name": "D", "color": "#a0b8d4", "bgImage": null, "icon": null, "visualMode": "color", "items": [] }
+      ],
+      "items": [
+        { "id": "a1", "type": "text", "label": "The Beatles", "bgColor": "#4a3728", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a2", "type": "text", "label": "Michael Jackson", "bgColor": "#2d2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a3", "type": "text", "label": "Queen", "bgColor": "#4a4a1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a4", "type": "text", "label": "Pink Floyd", "bgColor": "#1a1a33", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a5", "type": "text", "label": "Led Zeppelin", "bgColor": "#3d2828", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a6", "type": "text", "label": "Eminem", "bgColor": "#2d2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a7", "type": "text", "label": "Kendrick Lamar", "bgColor": "#4a2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a8", "type": "text", "label": "Taylor Swift", "bgColor": "#4a2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a9", "type": "text", "label": "Drake", "bgColor": "#1a3320", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a10", "type": "text", "label": "Kanye West", "bgColor": "#33291a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a11", "type": "text", "label": "Beyoncé", "bgColor": "#4a3d1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "a12", "type": "text", "label": "Bob Marley", "bgColor": "#2d4a2d", "bgImage": null, "icon": null, "aspectRatio": "square" }
+      ],
+      "pool": ["a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11", "a12"]
+    }
+  },
+  {
+    "id": "tmpl-anime-shows",
+    "name": "Best Anime Series",
+    "category": "anime",
+    "itemCount": 10,
+    "data": {
+      "tiers": [
+        { "id": "t1", "name": "Masterpiece", "color": "#d4a0a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t2", "name": "Amazing", "color": "#d4b8a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t3", "name": "Great", "color": "#d4cca0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t4", "name": "Good", "color": "#a0d4a8", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t5", "name": "Mid", "color": "#a0b8d4", "bgImage": null, "icon": null, "visualMode": "color", "items": [] }
+      ],
+      "items": [
+        { "id": "an1", "type": "text", "label": "Attack on Titan", "bgColor": "#4a2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an2", "type": "text", "label": "Death Note", "bgColor": "#1a1a2e", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an3", "type": "text", "label": "Fullmetal Alchemist: Brotherhood", "bgColor": "#4a3728", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an4", "type": "text", "label": "Naruto Shippuden", "bgColor": "#4a3d1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an5", "type": "text", "label": "One Piece", "bgColor": "#1a2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an6", "type": "text", "label": "Dragon Ball Z", "bgColor": "#4a4a1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an7", "type": "text", "label": "Demon Slayer", "bgColor": "#2d4a33", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an8", "type": "text", "label": "Jujutsu Kaisen", "bgColor": "#3d2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an9", "type": "text", "label": "Hunter x Hunter", "bgColor": "#2d4a2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "an10", "type": "text", "label": "Steins;Gate", "bgColor": "#2d2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" }
+      ],
+      "pool": ["an1", "an2", "an3", "an4", "an5", "an6", "an7", "an8", "an9", "an10"]
+    }
+  },
+  {
+    "id": "tmpl-fast-food",
+    "name": "Fast Food Chains",
+    "category": "food",
+    "itemCount": 10,
+    "data": {
+      "tiers": [
+        { "id": "t1", "name": "S", "color": "#d4a0a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t2", "name": "A", "color": "#d4b8a0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t3", "name": "B", "color": "#d4cca0", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t4", "name": "C", "color": "#a0d4a8", "bgImage": null, "icon": null, "visualMode": "color", "items": [] },
+        { "id": "t5", "name": "D", "color": "#a0b8d4", "bgImage": null, "icon": null, "visualMode": "color", "items": [] }
+      ],
+      "items": [
+        { "id": "f1", "type": "text", "label": "McDonald's", "bgColor": "#4a3d1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f2", "type": "text", "label": "Chick-fil-A", "bgColor": "#4a2d2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f3", "type": "text", "label": "In-N-Out", "bgColor": "#4a1a1a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f4", "type": "text", "label": "Wendy's", "bgColor": "#4a2828", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f5", "type": "text", "label": "Taco Bell", "bgColor": "#3d2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f6", "type": "text", "label": "KFC", "bgColor": "#4a3728", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f7", "type": "text", "label": "Burger King", "bgColor": "#33291a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f8", "type": "text", "label": "Subway", "bgColor": "#2d4a2d", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f9", "type": "text", "label": "Domino's", "bgColor": "#1a2d4a", "bgImage": null, "icon": null, "aspectRatio": "square" },
+        { "id": "f10", "type": "text", "label": "Popeyes", "bgColor": "#4a3333", "bgImage": null, "icon": null, "aspectRatio": "square" }
+      ],
+      "pool": ["f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10"]
+    }
+  }
+]
